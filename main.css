@@ -17,6 +17,7 @@ body{
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .headerTop{
@@ -64,14 +65,14 @@ input{
     cursor: pointer;
     opacity: .3;
     border: 25px solid rgb(25, 189, 230);
-    font-family: monospace;
-    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
     bottom: 100px;
     left: 200px;
     background-color: white;
 }
 
-.pplBtn:hover{;
+.pplBtn:hover{
     opacity: 1;
 }
 
@@ -83,8 +84,8 @@ input{
     cursor: pointer;
     opacity: .3;
     border: 25px solid rgb(25, 25, 121);
-    font-family: monospace;
-    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
     right: 400px;
     bottom: 200px;
 }
