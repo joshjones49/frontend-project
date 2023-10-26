@@ -69,9 +69,9 @@ function grabLocList(locIdNumbers) {
 //=====Functions========================
 function showLocationData(location) {
     headerDiv.textContent = 'HOME';
-    headerDiv.style.fontSize = '200px'
-    container.style.border = '0px'
-    container.style.borderRadius = '0%'
+    headerDiv.style.fontSize = '200px';
+    container.style.border = '0px';
+    container.style.borderRadius = '0%';
     container.innerHTML = '';
 
     for(let i = 0; i < location.length; i++) {
@@ -81,12 +81,15 @@ function showLocationData(location) {
            span.style.border = '15px solid yellow';
            span.style.width = 'auto';
            span.style.height = "auto";
-           span.style.color = 'white'
-           span.style.textShadow = '0px 0px 50px black'
+           span.style.color = 'white';
+           span.style.textShadow = '0px 0px 50px black';
            span.style.textAlign = 'center';
-           span.style.backgroundColor = 'teal'
-           span.style.borderRadius = '30px'
-           container.appendChild(span)
+           span.style.backgroundColor = 'teal';
+           span.style.borderRadius = '30px';
+           container.appendChild(span);
+           span.addEventListener('click', () => {
+            
+           })
 
             const h1 = document.createElement('h1');
             h1.textContent = loc.name;
