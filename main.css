@@ -130,3 +130,7 @@ input{
     font-size: 100px;
     text-align: center;
 }
+
+.hiddenWindow{
+    display: none;
+}

@@ -86,10 +86,8 @@ function showLocationData(location) {
            span.style.textAlign = 'center';
            span.style.backgroundColor = 'teal';
            span.style.borderRadius = '30px';
+           span.style.cursor = 'pointer';
            container.appendChild(span);
-           span.addEventListener('click', () => {
-
-           })
 
             const h1 = document.createElement('h1');
             h1.textContent = loc.name;
@@ -169,3 +167,4 @@ function randomLocNumbers() {
     }
     return randomNumbers;
 }
+
