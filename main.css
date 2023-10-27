@@ -1,19 +1,21 @@
 body{
     display: flex;
     justify-content: space-evenly;
-    background: url(https://i.guim.co.uk/img/media/b563ac5db4b4a4e1197c586bbca3edebca9173cd/0_12_3307_1985/master/3307.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=61a26bf43da26e4ca97e932e5ee113f7);
+    background: url(https://i.pinimg.com/originals/6e/39/6a/6e396ac75293f741be7b7855ba4968e5.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .headerDiv{
-    background-color: white;
+    background-color: darkslateblue;;
     font-family:  monospace;
+    color: white;
+    text-shadow: 0px 0px 10px white;
     font-size: 47px;
     text-align: center;
     height: 250px;
     width: 900px;
-    border: 20px double teal;
+    border: 20px solid yellowgreen;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
@@ -26,11 +28,13 @@ body{
 
 .searchDiv{
     display: flexbox;
-    background-color: white;
-    border: 20px double teal;
+    background-color: darkslateblue;;
+    border: 20px solid yellowgreen;
     border-radius: 50px;
     width: 600px;
     font-family: monospace;
+    color: white;
+    text-shadow: 0px 0px 10px white;
     font-size: 90px;
     cursor: url('Summer-.png'), auto;
     height: min-content;
@@ -38,12 +42,14 @@ body{
 
 .searchLocDiv{
     display: flexbox;
-    background-color: white;
-    border: 20px double teal;
+    background-color: darkslateblue;
+    border: 20px solid yellowgreen;
     border-radius: 50px;
     width: 600px;
     font-family: monospace;
     font-size: 90px;
+    color: white;
+    text-shadow: 0px 0px 10px white;
     height: min-content;
     cursor: url('Jerry-.png'), auto;
 }
@@ -51,7 +57,7 @@ body{
 input{
     width: 600px ;
     height: 70px;
-    border: 7px solid teal;
+    border: 7px solid gray;
     border-radius: 25px;
     font-size: 45px;
     font-family: monospace;
@@ -77,18 +83,20 @@ input{
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    cursor: url('Rick-.png'), auto;
+    cursor: url('Morty-.png'), auto;
     opacity: .3;
-    border: 25px solid rgb(25, 189, 230);
+    border: 25px solid rgb(25, 25, 121);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
     bottom: 100px;
     left: 200px;
-    background-color: white;
+    background-color: rgb(255, 255, 72);;
 }
 
 .pplBtn:hover{
+    color: white;
     opacity: 1;
+    text-shadow: 1px 1px 10px black;
 }
 
 .locBtn{
@@ -96,9 +104,9 @@ input{
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    cursor: url('Morty-.png'), auto;
+    cursor: url('Rick-.png'), auto;
     opacity: .3;
-    border: 25px solid rgb(25, 25, 121);
+    border: 25px solid rgb(25, 189, 230);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
     right: 400px;
@@ -106,8 +114,11 @@ input{
 }
 
 .locBtn:hover{
-    background-color: rgb(255, 255, 72);
+    background-color: rgb(25, 189, 230);
     opacity: 1;
+    border: 25px solid white;
+    color: white;
+    text-shadow: 1px 1px 10px black;
 }
 
 .pplHeader{

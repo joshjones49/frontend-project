@@ -88,7 +88,7 @@ function showLocationData(location) {
            span.style.borderRadius = '30px';
            container.appendChild(span);
            span.addEventListener('click', () => {
-            
+
            })
 
             const h1 = document.createElement('h1');
@@ -119,13 +119,13 @@ function showCharacterData(character) {
         const char = character[i]
 
         const span = document.createElement('span');
-           span.style.border = '15px solid yellow';
+           span.style.border = '15px solid yellowgreen';
            span.style.width = 'auto';
            span.style.height = "auto";
            span.style.color = 'white'
            span.style.textShadow = '0px 0px 50px black'
            span.style.textAlign = 'center';
-           span.style.backgroundColor = 'teal'
+           span.style.backgroundColor = 'darkslateblue'
            span.style.borderRadius = '30px'
            container.appendChild(span)
 
